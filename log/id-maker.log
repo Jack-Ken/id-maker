@@ -1,0 +1,132 @@
+{"level":"DEBUG","time":"2023-01-31T21:19:36.572+0800","caller":"cmd/main.go:31","msg":"logger initialize success..."}
+{"level":"ERROR","time":"2023-01-31T21:19:37.306+0800","caller":"initialize/init_mysql.go:27","msg":"Connect DB failed","error":"Error 1049 (42000): Unknown database 'mini_tiktok'"}
+{"level":"DEBUG","time":"2023-04-18T18:03:27.802+0800","caller":"cmd/main.go:31","msg":"logger initialize success..."}
+{"level":"ERROR","time":"2023-04-18T18:03:29.123+0800","caller":"initialize/init_mysql.go:27","msg":"Connect DB failed","error":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=local' at line 1"}
+{"level":"DEBUG","time":"2023-04-18T18:04:29.705+0800","caller":"cmd/main.go:31","msg":"logger initialize success..."}
+{"level":"ERROR","time":"2023-04-18T18:04:29.795+0800","caller":"initialize/init_mysql.go:27","msg":"Connect DB failed","error":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=local' at line 1"}
+{"level":"DEBUG","time":"2023-04-18T18:08:33.049+0800","caller":"cmd/main.go:31","msg":"logger initialize success..."}
+{"level":"ERROR","time":"2023-04-18T18:08:33.891+0800","caller":"initialize/init_mysql.go:33","msg":"Connect DB failed","error":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=Local' at line 1"}
+{"level":"DEBUG","time":"2023-04-18T18:09:14.332+0800","caller":"cmd/main.go:31","msg":"logger initialize success..."}
+{"level":"DEBUG","time":"2023-04-18T18:11:37.093+0800","caller":"cmd/main.go:31","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-18T18:11:48.063+0800","caller":"cmd/main.go:67","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-18T18:11:48.070+0800","caller":"cmd/main.go:76","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-21T17:27:08.812+0800","caller":"cmd/main.go:30","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-21T17:31:31.758+0800","caller":"cmd/main.go:66","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-21T17:31:31.772+0800","caller":"cmd/main.go:75","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T18:13:04.145+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-22T19:37:13.931+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T19:37:13.988+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T19:47:51.579+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"ERROR","time":"2023-04-22T19:48:43.990+0800","caller":"v1/segment.go:34","msg":"http - v1 - GetId\n"}
+{"level":"INFO","time":"2023-04-22T20:21:55.735+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T20:21:55.739+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T20:30:17.462+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-22T20:32:47.003+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T20:32:47.017+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T20:32:52.672+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"ERROR","time":"2023-04-22T20:35:56.692+0800","caller":"v1/segment.go:41","msg":"http - v1 - GetId\n"}
+{"level":"INFO","time":"2023-04-22T20:47:52.316+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T20:47:52.319+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T20:47:57.142+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-22T20:52:17.750+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T20:52:17.754+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T20:52:23.020+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-22T20:53:28.026+0800","caller":"v1/segment.go:75","msg":"http - v1 - CreateTagtest"}
+{"level":"ERROR","time":"2023-04-22T20:53:28.033+0800","caller":"v1/segment.go:84","msg":"http - v1 - CreateTag\n","error":"sql: converting argument $5 type: unsupported type entity.TimeFormat, a struct"}
+{"level":"INFO","time":"2023-04-22T21:01:44.619+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T21:01:44.621+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T21:01:49.887+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-22T21:03:28.163+0800","caller":"v1/segment.go:72","msg":"http - v1 - CreateTag test"}
+{"level":"INFO","time":"2023-04-22T21:06:12.271+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T21:06:12.273+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T21:06:17.612+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-22T21:06:29.321+0800","caller":"v1/segment.go:72","msg":"http - v1 - CreateTag test"}
+{"level":"INFO","time":"2023-04-22T21:07:02.984+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T21:07:02.989+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T21:07:06.843+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-22T21:07:46.453+0800","caller":"v1/segment.go:72","msg":"http - v1 - CreateTag test"}
+{"level":"ERROR","time":"2023-04-22T21:07:46.456+0800","caller":"v1/segment.go:81","msg":"http - v1 - CreateTag\n","error":"Tag Already Exist"}
+{"level":"INFO","time":"2023-04-22T21:08:24.380+0800","caller":"v1/segment.go:72","msg":"http - v1 - CreateTag test"}
+{"level":"INFO","time":"2023-04-22T21:11:22.814+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T21:11:22.819+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T21:11:45.875+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-22T21:12:40.549+0800","caller":"v1/segment.go:72","msg":"http - v1 - CreateTag test"}
+{"level":"ERROR","time":"2023-04-22T21:12:40.552+0800","caller":"v1/segment.go:81","msg":"http - v1 - CreateTag\n","error":"Tag Already Exist"}
+{"level":"INFO","time":"2023-04-22T21:13:32.450+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T21:13:32.454+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T21:13:37.990+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-22T21:14:11.490+0800","caller":"v1/segment.go:72","msg":"http - v1 - CreateTag test"}
+{"level":"ERROR","time":"2023-04-22T21:14:11.507+0800","caller":"v1/segment.go:81","msg":"http - v1 - CreateTag\n","error":"sql: converting argument $5 type: unsupported type entity.TimeFormat, a struct"}
+{"level":"INFO","time":"2023-04-22T21:14:29.947+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T21:14:29.967+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T21:14:33.650+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-22T21:15:16.460+0800","caller":"v1/segment.go:72","msg":"http - v1 - CreateTag test"}
+{"level":"INFO","time":"2023-04-22T21:15:45.588+0800","caller":"v1/segment.go:60","msg":"http - v1 - GetSnowId"}
+{"level":"ERROR","time":"2023-04-22T21:15:53.936+0800","caller":"v1/segment.go:42","msg":"http - v1 - GetId\n"}
+{"level":"ERROR","time":"2023-04-22T21:16:05.773+0800","caller":"v1/segment.go:42","msg":"http - v1 - GetId\n"}
+{"level":"ERROR","time":"2023-04-22T21:16:50.137+0800","caller":"v1/segment.go:42","msg":"http - v1 - GetId\n"}
+{"level":"INFO","time":"2023-04-22T21:17:04.831+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T21:17:04.839+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T21:17:23.988+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"ERROR","time":"2023-04-22T21:17:39.006+0800","caller":"v1/segment.go:49","msg":"http - v1 - GetId\n","error":"no get id"}
+{"level":"INFO","time":"2023-04-22T21:19:10.344+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T21:19:10.349+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T21:19:15.781+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"ERROR","time":"2023-04-22T21:19:35.743+0800","caller":"v1/segment.go:48","msg":"http - v1 - GetId\n","error":"no get id"}
+{"level":"INFO","time":"2023-04-22T21:20:18.035+0800","caller":"v1/segment.go:28","msg":"http - v1 - Ping"}
+{"level":"INFO","time":"2023-04-22T21:22:25.096+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T21:22:25.099+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T21:22:30.801+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-22T21:28:40.216+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T21:28:40.227+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T21:29:28.480+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"ERROR","time":"2023-04-22T21:29:46.605+0800","caller":"v1/segment.go:50","msg":"http - v1 - GetId\n","error":"no get id"}
+{"level":"INFO","time":"2023-04-22T21:30:55.364+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T21:30:55.366+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T21:31:00.985+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"ERROR","time":"2023-04-22T21:31:10.704+0800","caller":"v1/segment.go:50","msg":"http - v1 - GetId\n","error":"no get id"}
+{"level":"INFO","time":"2023-04-22T21:33:04.415+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T21:33:04.425+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T21:33:10.184+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-22T21:40:01.856+0800","caller":"v1/segment.go:73","msg":"http - v1 - CreateTag test"}
+{"level":"ERROR","time":"2023-04-22T21:40:01.860+0800","caller":"v1/segment.go:82","msg":"http - v1 - CreateTag\n","error":"Tag Already Exist"}
+{"level":"INFO","time":"2023-04-22T21:40:14.728+0800","caller":"v1/segment.go:61","msg":"http - v1 - GetSnowId"}
+{"level":"INFO","time":"2023-04-22T22:17:09.345+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T22:17:09.347+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T22:17:14.924+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-22T22:18:09.204+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T22:18:09.222+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T22:18:15.110+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-22T22:27:43.553+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T22:27:43.562+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T22:47:04.442+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-22T22:47:38.579+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T22:47:38.580+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T22:48:02.686+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-22T23:00:38.038+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T23:00:38.046+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T23:01:01.230+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-22T23:03:19.086+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T23:03:19.096+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-22T23:03:26.149+0800","caller":"cmd/main.go:34","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-22T23:23:25.498+0800","caller":"cmd/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-04-22T23:23:25.501+0800","caller":"cmd/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-04-23T20:47:57.431+0800","caller":"cmd/main.go:32","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-23T20:48:16.173+0800","caller":"cmd/main.go:69","msg":"Shutdown Server ..."}
+{"level":"DEBUG","time":"2023-04-23T21:08:51.272+0800","caller":"cmd/main.go:32","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-23T21:20:53.206+0800","caller":"cmd/main.go:69","msg":"Shutdown Server ..."}
+{"level":"DEBUG","time":"2023-04-23T21:21:02.539+0800","caller":"cmd/main.go:32","msg":"logger initialize success..."}
+{"level":"DEBUG","time":"2023-04-23T21:24:38.901+0800","caller":"cmd/main.go:32","msg":"logger initialize success..."}
+{"level":"DEBUG","time":"2023-04-23T21:26:27.532+0800","caller":"cmd/main.go:32","msg":"logger initialize success..."}
+{"level":"DEBUG","time":"2023-04-23T21:28:58.706+0800","caller":"cmd/main.go:32","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-23T21:29:13.237+0800","caller":"v1/segment.go:29","msg":"http - v1 - Ping"}
+{"level":"INFO","time":"2023-04-23T21:29:38.982+0800","caller":"cmd/main.go:69","msg":"Shutdown Server ..."}
+{"level":"DEBUG","time":"2023-04-23T21:29:48.340+0800","caller":"cmd/main.go:32","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-23T21:31:40.406+0800","caller":"cmd/main.go:69","msg":"Shutdown Server ..."}
+{"level":"DEBUG","time":"2023-04-23T21:31:47.633+0800","caller":"cmd/main.go:32","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-23T21:32:45.888+0800","caller":"v1/segment.go:61","msg":"http - v1 - GetSnowId"}
+{"level":"INFO","time":"2023-04-23T21:32:47.707+0800","caller":"v1/segment.go:61","msg":"http - v1 - GetSnowId"}
+{"level":"INFO","time":"2023-04-23T21:32:48.826+0800","caller":"v1/segment.go:61","msg":"http - v1 - GetSnowId"}
+{"level":"INFO","time":"2023-04-23T21:49:37.295+0800","caller":"cmd/main.go:69","msg":"Shutdown Server ..."}
+{"level":"DEBUG","time":"2023-04-23T21:49:54.209+0800","caller":"cmd/main.go:33","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-23T21:50:12.100+0800","caller":"rpc/segment.go:32","msg":"grpc - Ping"}
