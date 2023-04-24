@@ -130,3 +130,15 @@
 {"level":"INFO","time":"2023-04-23T21:49:37.295+0800","caller":"cmd/main.go:69","msg":"Shutdown Server ..."}
 {"level":"DEBUG","time":"2023-04-23T21:49:54.209+0800","caller":"cmd/main.go:33","msg":"logger initialize success..."}
 {"level":"INFO","time":"2023-04-23T21:50:12.100+0800","caller":"rpc/segment.go:32","msg":"grpc - Ping"}
+{"level":"INFO","time":"2023-04-23T22:48:12.872+0800","caller":"v1/segment.go:29","msg":"http - v1 - Ping"}
+{"level":"INFO","time":"2023-04-23T22:48:42.411+0800","caller":"v1/segment.go:29","msg":"http - v1 - Ping"}
+{"level":"INFO","time":"2023-04-23T23:04:37.296+0800","caller":"cmd/main.go:70","msg":"Shutdown Server ..."}
+{"level":"DEBUG","time":"2023-04-24T11:45:14.613+0800","caller":"cmd/main.go:33","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-24T11:51:08.013+0800","caller":"v1/segment.go:29","msg":"http - v1 - Ping"}
+{"level":"INFO","time":"2023-04-24T11:52:06.547+0800","caller":"v1/segment.go:29","msg":"http - v1 - Ping"}
+{"level":"INFO","time":"2023-04-24T12:06:58.579+0800","caller":"cmd/main.go:70","msg":"Shutdown Server ..."}
+{"level":"DEBUG","time":"2023-04-24T12:08:27.653+0800","caller":"cmd/main.go:33","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-24T12:09:05.927+0800","caller":"v1/segment.go:29","msg":"http - v1 - Ping"}
+{"level":"INFO","time":"2023-04-24T12:09:18.607+0800","caller":"v1/segment.go:29","msg":"http - v1 - Ping"}
+{"level":"INFO","time":"2023-04-24T12:09:36.558+0800","caller":"v1/segment.go:62","msg":"http - v1 - GetSnowId"}
+{"level":"INFO","time":"2023-04-24T21:36:10.672+0800","caller":"cmd/main.go:70","msg":"Shutdown Server ..."}

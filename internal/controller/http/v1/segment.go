@@ -27,7 +27,8 @@ func NewSegmentService(s usecase.Segment, l *zap.Logger) *SegmentService {
 
 func (r *SegmentService) pong(c *gin.Context) {
 	r.lg.Info("http - v1 - Ping")
-	c.JSON(http.StatusOK, "pong")
+	successResponse(c, http.StatusOK, "pong")
+	//c.JSON(http.StatusOK, "pong")
 }
 
 func (r *SegmentService) GetId(c *gin.Context) {
@@ -52,14 +53,15 @@ func (r *SegmentService) GetId(c *gin.Context) {
 
 		return
 	}
-
-	c.JSON(http.StatusOK, id)
+	successIdResponse(c, http.StatusOK, id)
+	//c.JSON(http.StatusOK, id)
 }
 
 func (r *SegmentService) GetSnowId(c *gin.Context) {
 	id := r.s.SnowFlakeGetId()
 	r.lg.Info("http - v1 - GetSnowId")
-	c.JSON(http.StatusOK, id)
+	successIdResponse(c, http.StatusOK, id)
+	//c.JSON(http.StatusOK, id)
 }
 
 func (r *SegmentService) CreateTag(c *gin.Context) {
@@ -84,6 +86,6 @@ func (r *SegmentService) CreateTag(c *gin.Context) {
 
 		return
 	}
-
-	c.JSON(http.StatusOK, nil)
+	successResponse(c, http.StatusOK, "success")
+	//c.JSON(http.StatusOK, nil)
 }
