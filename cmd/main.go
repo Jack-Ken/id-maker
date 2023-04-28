@@ -32,7 +32,8 @@ func main() {
 	defer lg.Sync()
 	lg.Debug("logger initialize success...")
 	// 3、初始化MySQL连接
-	if err := initialize.Init_Mysql(config.Conf.MySqlConfig); err != nil {
+	sqlSession, err := initialize.Init_Mysql(config.Conf.MySqlConfig)
+	if err != nil {
 		fmt.Printf("initialize mysql link failed, err:%v \n", err)
 		return
 	}
@@ -44,9 +45,8 @@ func main() {
 	//defer initialize.Close_Redis()
 	// 5、注册路由
 
-	// 代码块中的是业务处理的注册模块，当业务增多的时候可以另起一个包来处理
-
-	segmentUsecae := usecase.New(repo.New(initialize.SqlSession))
+	// 业务处理的注册，当业务增多的时候可以另起一个包来处理
+	segmentUsecae := usecase.New(repo.New(sqlSession))
 	v1.RegisterRouteSrv(segmentUsecae, lg)
 
 	router := router.InitRouter()

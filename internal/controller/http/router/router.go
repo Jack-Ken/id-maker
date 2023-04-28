@@ -9,13 +9,6 @@ type Router interface {
 	Route(r *gin.Engine)
 }
 
-//type RegisterRouter struct {
-//}
-//
-//func New() *RegisterRouter {
-//	return &RegisterRouter{}
-//}
-
 var routers []Router
 
 func InitRouter() *gin.Engine {

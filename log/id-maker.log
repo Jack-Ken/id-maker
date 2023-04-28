@@ -142,3 +142,20 @@
 {"level":"INFO","time":"2023-04-24T12:09:18.607+0800","caller":"v1/segment.go:29","msg":"http - v1 - Ping"}
 {"level":"INFO","time":"2023-04-24T12:09:36.558+0800","caller":"v1/segment.go:62","msg":"http - v1 - GetSnowId"}
 {"level":"INFO","time":"2023-04-24T21:36:10.672+0800","caller":"cmd/main.go:70","msg":"Shutdown Server ..."}
+{"level":"DEBUG","time":"2023-04-28T09:14:39.539+0800","caller":"cmd/main.go:33","msg":"logger initialize success..."}
+{"level":"INFO","time":"2023-04-28T09:16:51.641+0800","caller":"v1/segment.go:29","msg":"http - v1 - Ping"}
+{"level":"INFO","time":"2023-04-28T09:17:19.601+0800","caller":"v1/segment.go:29","msg":"http - v1 - Ping"}
+{"level":"INFO","time":"2023-04-28T09:19:00.087+0800","caller":"v1/segment.go:62","msg":"http - v1 - GetSnowId"}
+{"level":"INFO","time":"2023-04-28T09:24:01.952+0800","caller":"v1/segment.go:62","msg":"http - v1 - GetSnowId"}
+{"level":"INFO","time":"2023-04-28T09:54:04.516+0800","caller":"v1/segment.go:75","msg":"http - v1 - CreateTag ad sed proident"}
+{"level":"ERROR","time":"2023-04-28T10:26:48.901+0800","caller":"v1/segment.go:70","msg":"http - v1 - CreateTag\n","error":"json: cannot unmarshal string into Go struct field tagRequest.step of type int64"}
+{"level":"ERROR","time":"2023-04-28T10:27:28.970+0800","caller":"v1/segment.go:70","msg":"http - v1 - CreateTag\n","error":"json: cannot unmarshal string into Go struct field tagRequest.step of type int64"}
+{"level":"INFO","time":"2023-04-28T10:30:17.757+0800","caller":"v1/segment.go:75","msg":"http - v1 - CreateTag "}
+{"level":"INFO","time":"2023-04-28T10:36:45.442+0800","caller":"v1/segment.go:75","msg":"http - v1 - CreateTag "}
+{"level":"ERROR","time":"2023-04-28T10:40:05.302+0800","caller":"v1/segment.go:70","msg":"http - v1 - CreateTag\n","error":"invalid semicolon separator in query"}
+{"level":"ERROR","time":"2023-04-28T10:41:58.979+0800","caller":"v1/segment.go:70","msg":"http - v1 - CreateTag\n","error":"invalid semicolon separator in query"}
+{"level":"INFO","time":"2023-04-28T10:44:33.226+0800","caller":"cmd/main.go:70","msg":"Shutdown Server ..."}
+{"level":"DEBUG","time":"2023-04-28T10:45:03.165+0800","caller":"cmd/main.go:33","msg":"logger initialize success..."}
+{"level":"ERROR","time":"2023-04-28T10:45:33.430+0800","caller":"v1/segment.go:70","msg":"http - v1 - CreateTag\n","error":"invalid character '\\'' looking for beginning of object key string"}
+{"level":"ERROR","time":"2023-04-28T10:47:16.270+0800","caller":"v1/segment.go:70","msg":"http - v1 - CreateTag\n","error":"invalid character '=' after object key"}
+{"level":"INFO","time":"2023-04-28T10:50:33.419+0800","caller":"v1/segment.go:75","msg":"http - v1 - CreateTag bz"}

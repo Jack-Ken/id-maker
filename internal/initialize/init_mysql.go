@@ -12,9 +12,9 @@ import (
 	"gorm.io/gorm"
 )
 
-var SqlSession *gorm.DB
+//var SqlSession *gorm.DB
 
-func Init_Mysql(cfg *config.MySqlConfig) (err error) {
+func Init_Mysql(cfg *config.MySqlConfig) (sqlSession *gorm.DB, err error) {
 	dsn := fmt.Sprintf("%s:%s@tcp(%s:%d)/%s?charset=%s&parseTime=True&loc=Local",
 		cfg.User,
 		cfg.Password,
@@ -23,7 +23,7 @@ func Init_Mysql(cfg *config.MySqlConfig) (err error) {
 		cfg.DbName,
 		cfg.Charset,
 	)
-	SqlSession, err = gorm.Open(mysql.New(mysql.Config{DSN: dsn}), &gorm.Config{
+	sqlSession, err = gorm.Open(mysql.New(mysql.Config{DSN: dsn}), &gorm.Config{
 		NamingStrategy: schema.NamingStrategy{
 			SingularTable: true,
 		},
@@ -35,7 +35,7 @@ func Init_Mysql(cfg *config.MySqlConfig) (err error) {
 		zap.L().Error("Connect DB failed", zap.Error(err))
 		return
 	}
-	sqlDb, err := SqlSession.DB()
+	sqlDb, err := sqlSession.DB()
 
 	// SetMaxIdleConns 设置空闲连接池中连接的最大数量
 	sqlDb.SetMaxIdleConns(cfg.MaxIdleConnections)
@@ -43,7 +43,7 @@ func Init_Mysql(cfg *config.MySqlConfig) (err error) {
 	// SetMaxOpenConns 设置打开数据库连接的最大数量。
 	sqlDb.SetMaxOpenConns(cfg.MaxOpenConnections)
 
-	err = SqlSession.AutoMigrate(&entity.Segments{})
+	err = sqlSession.AutoMigrate(&entity.Segments{})
 	if err != nil {
 		zap.L().Error("Create Mysql tables failed.Please check the config files....", zap.Error(err))
 		return

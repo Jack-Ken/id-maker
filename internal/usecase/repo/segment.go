@@ -33,6 +33,9 @@ func (db *SegmentRepo) GetList() ([]entity.Segments, error) {
 func (db *SegmentRepo) Add(s *entity.Segments) error {
 	var err error
 	// 数据库中不存在这条数据才可以执行插入操作
+	if s.BizTag == "" {
+		return errors.New("nil record")
+	}
 	if errors.Is(db.Where("biz_tag = ?", s.BizTag).First(s).Error, gorm.ErrRecordNotFound) {
 		if err = db.Create(s).Error; err != nil {
 			return err

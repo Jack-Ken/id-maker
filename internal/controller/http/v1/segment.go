@@ -66,7 +66,7 @@ func (r *SegmentService) GetSnowId(c *gin.Context) {
 
 func (r *SegmentService) CreateTag(c *gin.Context) {
 	var request tagRequest
-	if err := c.ShouldBind(&request); err != nil {
+	if err := c.ShouldBindJSON(&request); err != nil {
 		r.lg.Error("http - v1 - CreateTag\n", zap.Error(err))
 		errorResponse(c, http.StatusBadRequest, err.Error())
 
